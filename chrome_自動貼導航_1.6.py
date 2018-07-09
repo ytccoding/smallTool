@@ -28,7 +28,7 @@ def Account():
    for i in range(1,len(sheet["B"])+1):
       if str(sheet["B" + str(i)].value).strip() == "總控":
          control_Url = str(sheet["D" + str(i)].value).strip()
-      if str(sheet["B" + str(i)].value).strip() == "YT總控站點":
+      if str(sheet["B" + str(i)].value).strip() == "總控站點":
          control_Sitting_url = str(sheet["D" + str(i)].value).strip()
       if str(sheet["B" + str(i)].value).strip() == "APKIOS":
          google_Driver_url = str(sheet["D" + str(i)].value).strip()
